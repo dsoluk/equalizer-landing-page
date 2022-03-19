@@ -1,0 +1,137 @@
+:root {
+  --pale-blue-BG: hsl(177, 68, 64);
+  --bright-peach-BG: hsl(12, 94, 65);
+  --light-peach-BG: #ffb964;
+  --white-BG: rgb(252, 250, 249);
+  --black-BG: rgb(25, 24, 38);
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.BG-blue-blur-oval {
+  position: absolute;
+  width: 281.4px;
+  height: 281.4px;
+  left: 159px;
+  top: -104px;
+
+  background: #40fff6;
+  mix-blend-mode: normal;
+  opacity: 0.28;
+  filter: blur(135.914px);
+}
+
+.BG-orange-blur-oval {
+  position: absolute;
+  width: 281.4px;
+  height: 281.4px;
+  left: 159px;
+  top: 94.6px;
+
+  background: #ff9201;
+  mix-blend-mode: normal;
+  opacity: 0.15;
+  filter: blur(135.914px);
+}
+
+.page-container {
+  text-align: left;
+  width: 204.76;
+}
+
+.top-container {
+  position: relative;
+  position: absolute;
+  left: 50%;
+}
+
+article {
+  width: 100%;
+}
+
+.mid-container {
+  /* width: 100%; */
+  /* top: 524px; */
+}
+
+.app_img-container {
+  /* top: 524px;
+  width: 100% */
+}
+
+.app_img-container > img {
+  position: absolute;
+width: 208.97px;
+height: 430px;
+left: 80.67px;
+top: 524px;
+}
+
+.black-background {
+  position: absolute;
+width: 375px;
+height: 600px;
+left: 0px;
+top: 622px;
+background-color: var(--black-BG);
+border-radius: 12px;
+z-index: -1;
+}
+
+.black-background > img {
+  position: absolute;
+width: 280px;
+height: 420px;
+left: 48px;
+  
+}
+
+.price-card {
+  position: absolute;
+width: calc(375px - 72px);
+height: 546px;
+left: 0px;
+top: 1002px;
+color: var(--white-BG);
+
+background: #FA7453;
+border-radius: 12px;
+padding: 36px;
+}
+
+.price-card > h1 {
+  font-size: larger;
+}
+
+footer {
+  position: absolute;
+width: 327px;
+height: 169px;
+left: 24px;
+top: 1612px;
+}
+
+
+
+
+/* .top-container > img:last-of-type { */
+  /* background-image: url("/starter-code/assets/bg-pattern-2.svg") no-repeat; */
+  /* filter: blur(20px); */
+  /* background-position: right 10% top 10%; */
+  /* height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0; */
+}
+
+/* .top-container > img:first-of-type { */
+  /* height: 20%; */
+  /* width: 12%;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  aspect-ratio: 1; */
+}
