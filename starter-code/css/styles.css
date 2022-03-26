@@ -175,6 +175,31 @@ h1 ~ p {
   top: 94.6px;
 }
 
+@media screen and (min-width: 600px) {
+  .orange1 {
+    width: 384px;
+    height: 384px;
+    left: -254px;
+    top: -112px;
+  }
+
+  .orange2 {
+    width: 384px;
+    height: 384px;
+    left: 345px;
+    top: 312px;
+  }
+
+  .blue1 {
+    width: 384px;
+    height: 384px;
+    left: 345px;
+    top: 41px;
+    background: #66e2dc;
+    opacity: 0.28;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .orange1 {
     width: 384px;
@@ -367,9 +392,17 @@ button:first-of-type {
   margin-bottom: 13px;
 }
 
+button:first-of-type:hover {
+  background-color: #66e2dc;
+}
+
 button:last-of-type {
   color: var(--black-BG);
   background-color: var(--white-BG);
+}
+
+button:last-of-type:hover {
+  background-color: #ffb964;
 }
 /* FOOTER section
 ------------------------------ */
@@ -465,4 +498,8 @@ section.non-image {
   .soc-media-links {
     padding-top: 0;
   }
+}
+
+a:hover[href^="#"] {
+  background-color: #ff9201;
 }
