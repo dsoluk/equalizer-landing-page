@@ -119,7 +119,7 @@ h1 {
 }
 
 h1 ~ p {
-  width: 375px;
+  width: 327px;
   font-size: 20px;
   padding-top: 40px;
 }
@@ -238,11 +238,8 @@ h1 ~ p {
 
 @media screen and (min-width: 600px) {
   .mid-container {
-    /* display: grid; */
     grid-template-columns: 64px 165px 10px 95.21px 174.79px auto 58px;
     grid-template-rows: repeat(14, 5em);
-
-    /* margin: 1em; */
     width: 696px;
     height: 834px;
   }
@@ -267,7 +264,6 @@ h1 ~ p {
   .app_img-container {
     grid-column: 2 / 5;
     grid-row-start: 2;
-    /* padding-right: 30px; */
     z-index: 2;
   }
 }
@@ -324,7 +320,6 @@ h1 ~ p {
 /* Mid page - PRICE CARD
 ------------------------------ */
 .price-card {
-  /* display: block; */
   grid-column: 1 / 6;
   grid-row: 8 / 15;
 
@@ -401,12 +396,7 @@ button:last-of-type:hover {
 footer {
   width: 375px;
   display: block;
-  /* flex-direction: column; */
-  /* position: absolute; */
-  /* width: 100%; */
   margin: 0.5em;
-  /* margin: 24px; */
-  /* top: 1612px; */
 }
 
 @media screen and (min-width: 600px) {
@@ -426,10 +416,6 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     margin-left: 165px;
-    /* height: 32px; */
-    /* margin-left: 130px; */
-
-    /* padding: 0 220px 0 20px; */
   }
 }
 
@@ -446,13 +432,12 @@ img.equalizer {
   }
 }
 
-@media screen and (min-width: 992px) {
-  img.equalizer {
-    /* padding-bottom: 0; */
-  }
+section.non-image {
+  margin: 0;
+  width: 327px;
 }
 
-section.non-image {
+p {
   margin: 0;
 }
 
@@ -460,6 +445,10 @@ section.non-image {
   section.non-image {
     grid-column: 1 / 4;
     grid-row: 3 / 4;
+  }
+
+  p {
+    margin: 0;
   }
 }
 
@@ -476,6 +465,7 @@ section.non-image {
   display: flex;
   justify-content: space-between;
   margin-left: 0;
+  margin-top: 20px;
   width: 100px;
 }
 
@@ -492,6 +482,7 @@ section.non-image {
   }
 }
 
+/* NOT WORKING - ????? seek help */
 a:hover[href^="#"] {
   background-color: #ff9201;
 }
